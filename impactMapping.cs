@@ -5,6 +5,9 @@
  * We want to get a value based on the Date
  *
 */
+
+// Number of PRs is a key measurement of activity
+
 function impactMappingPR(input) {
   
   if(input <= 2)
@@ -25,6 +28,8 @@ function impactMappingPR(input) {
   
 }
 
+// Number of issues that are still active and open
+
 function impactMappingIssues(input) {
   
   if(input <= 10)
@@ -44,6 +49,8 @@ function impactMappingIssues(input) {
   }
   
 }
+
+// The date / year when the last update occured
 
 function impactMappingDate(input) {
   
